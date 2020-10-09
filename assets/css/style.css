@@ -1,0 +1,34 @@
+body,
+html {
+    width: 100%;
+}
+
+#hotel {
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+#title {
+    display: flex;
+}
+
+#name {
+    color: #092A5E;
+}
+
+#place, #numberNight, #oldPrice, .price, #paymentFacility {
+    color: #91959F;
+}
+
+.note {
+    color: #7CD4F8;
+}
+
+.numberOpinion {
+    color: #092A5E;
+}
+
+#price {
+    color: #D40E14;
+}
