@@ -1,34 +1,134 @@
-body,
-html {
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 33%;
+    border: 1px solid #8B9194;
+    padding-bottom: 4em;
+    margin: auto;
+}
+
+.img {
+    margin-bottom: 1em;
+}
+
+.img img {
     width: 100%;
+    height: auto;
 }
 
-#hotel {
+.first-row {
     display: flex;
-    width: 100%;
-    height: 40%;
+    padding: 0em 1em;
+    justify-content: space-between;
 }
 
-#title {
+.journey h1 {
+    color: #092A5E;
+    font-size: 2em;
+    margin-top: 0em;
+    margin-bottom: 0mm;
+}
+
+.journey h2 {
+    color: #8B9194;
+    font-size: 2em;
+    margin-top: 0mm;
+}
+
+.small-m img {
+    height: auto;
+    width: 2em;
+}
+
+
+.logo-img {
+    height: auto;
+    width: 7em;
+}
+
+.second-row {
     display: flex;
+    padding: 0em 1em;
+    align-items: baseline;
 }
 
-#name {
+.rating {
+    color: #70cbf4;
+    font-size: 2em;
+    padding: 0.1em;
+
+}
+
+.rating p {
+    margin: 0em;
+}
+
+.mark-size {
+    font-size: 1.2em;
+
+}
+
+.review {
     color: #092A5E;
+    font-size: 2em;
+    padding: 0.1em;
+
 }
 
-#place, #numberNight, #oldPrice, .price, #paymentFacility {
-    color: #91959F;
+.review p {
+    margin: 0em;
 }
 
-.note {
-    color: #7CD4F8;
+.third-row {
+    padding: 0em 1em;
+
 }
 
-.numberOpinion {
-    color: #092A5E;
+.third-row p {
+    color: #8B9194;
+    margin: 0em;
+    font-size: 2em;
 }
 
-#price {
+.product-price,
+.product-price p {
     color: #D40E14;
+    display: flex;
+    align-items: center;
+}
+
+
+.price {
+    font-size: 5em;
+}
+
+.i-price {
+    font-size: 2em;
+}
+
+.clearance {
+    color: white;
+    background-color: #D40E14;
+    font-size: 2em;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    margin-left: 1.5em;
+
+}
+
+.third-row span{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.fourth-row, .fourth-row p{
+    display: flex;
+    padding: 0em 1em;
+    color: #8B9194;
+    margin: 0em;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.fourth-row img{
+    width: 4em;
 }
